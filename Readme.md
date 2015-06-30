@@ -13,3 +13,8 @@ Notes:
 
  1. vagrant up
  2. Edit /etc/hosts and point redmine.dev to 192.168.33.15 
+
+## TODO
+
+* Use a more reliable provisioner (ansible, chef,...)
+* Deploy redmine using capistrano.
