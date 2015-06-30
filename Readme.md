@@ -11,5 +11,5 @@ Notes:
 
 ## Install
 
-1) vagrant up
-2) Edit /etc/hosts and point redmine.dev to 192.168.33.15 
+ 1. vagrant up
+ 2. Edit /etc/hosts and point redmine.dev to 192.168.33.15 
