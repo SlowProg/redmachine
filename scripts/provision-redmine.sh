@@ -5,7 +5,7 @@ mysql -u root -e "CREATE DATABASE IF NOT EXISTS redmine CHARACTER SET utf8;";
 cd /home/vagrant
 git clone https://github.com/redmine/redmine.git
 cd redmine
-rbenv local 2.1.6
+rbenv local 2.2.2
 gem install bundler
 rbenv rehash
 cp config/database.yml.example config/database.yml
@@ -32,3 +32,5 @@ __END__
 
 sudo a2ensite redmine
 sudo service apache2 reload
+
+echo 'cd /home/vagrant/redmine >& /dev/null' >> /home/vagrant/.bash_profile

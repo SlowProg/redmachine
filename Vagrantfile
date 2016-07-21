@@ -1,10 +1,13 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+boxname = "ubuntu-redmine"
+
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.provider "virtualbox" do |vb|
+    vb.name = boxname
     vb.memory = "2048"
   end
 
