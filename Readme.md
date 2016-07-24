@@ -20,3 +20,4 @@ Notes:
  1. vagrant up
  2. Edit /etc/hosts and point redmine.dev to 192.168.33.15
  3. Go to redmine.dev and login admin:admin
+ 4. Connect to database: `mysql -h127.0.0.1 -P3406 -uroot -proot`
